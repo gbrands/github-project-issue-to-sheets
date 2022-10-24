@@ -1,0 +1,16 @@
+name: github-project-issues-to-sheets
+recipe: lamp
+
+services:
+  node:
+    type: node
+    build:
+      - npm install
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  tsc:
+    service: node
+    cmd: /app/node_modules/typescript/bin/tsc
