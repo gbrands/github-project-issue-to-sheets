@@ -135,5 +135,5 @@ Importer.LOG_BULLET_ITEM = "·️";
 Importer.INPUT_SERVICE_ACCOUNT_JSON = "google-api-service-account-credentials";
 Importer.INPUT_DOCUMENT_ID = "document-id";
 Importer.INPUT_SHEET_NAME = "sheet-name";
-Importer.INPUT_GITHUB_TOKEN = "";
+Importer.INPUT_GITHUB_TOKEN = "github-token";
 //# sourceMappingURL=Importer.js.map

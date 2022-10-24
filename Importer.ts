@@ -10,7 +10,7 @@ export class Importer {
     public static INPUT_SERVICE_ACCOUNT_JSON = "google-api-service-account-credentials"
     public static INPUT_DOCUMENT_ID = "document-id"
     public static INPUT_SHEET_NAME = "sheet-name"
-    public static INPUT_GITHUB_TOKEN = ""
+    public static INPUT_GITHUB_TOKEN = "github-token"
 
     public async start(): Promise<void> {
         try {
