@@ -68,7 +68,8 @@ class Importer {
             Core.endGroup();
             Core.startGroup(`🔨 Form Issues data for Sheets format...`);
             var issueSheetsData = [];
-            for (const value of issuesData) {
+            const reversedIssuesData = issuesData.reverse();
+            for (const value of reversedIssuesData) {
                 var labels = [];
                 for (const label of value.labels) {
                     labels.push(label.name);
